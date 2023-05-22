@@ -47,13 +47,6 @@ validateYaml() {
     python -c 'import yaml,sys;yaml.safe_load(sys.stdin)' < $1
 }
 
-goWork() {
-    cp ~/.npm_work_rc ~/.npmrc
-}
-
-goPersonal() {
-    cp ~/.npm_personal_rc ~/.npmrc
-}
 
 addThrottle() {
     local kbs="kbps"
