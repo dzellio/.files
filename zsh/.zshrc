@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh_profile
 
-alias luamake=/home/mpaulson/personal/lua-language-server/3rd/luamake/luamake
+alias luamake=/home/joshua/personal/lua-language-server/3rd/luamake/luamake
 
 # bun completions
 [ -s "/home/joshua/.bun/_bun" ] && source "/home/joshua/.bun/_bun"
