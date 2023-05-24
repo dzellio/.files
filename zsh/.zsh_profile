@@ -13,7 +13,7 @@ export GOPATH=$HOME/go
 export GIT_EDITOR=$VIM
 export N_PREFIX="$HOME/.local/scripts"
 export DOTFILES=$HOME/.files
-export SCRIPTS=$HOME/.local/scripts
+export SCRIPTS=bin/.local/scripts
 bindkey -s ^f "tmux-sessionizer\n"
 
 catr() {
