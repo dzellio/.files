@@ -12,7 +12,7 @@ export N_PREFIX="$HOME/.local/scripts"
 export DOTFILES=$HOME/.files
 export SCRIPTS=bin/.local/scripts
 
-alias tmux-sessionizer=bin/.local/scripts/tmux-sessionizer
+alias tmux-sessionizer=$HOME/.files/bin/.local/scripts/tmux-sessionizer
 
 bindkey -s ^f "tmux-sessionizer\n"
 
